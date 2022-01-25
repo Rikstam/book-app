@@ -19,3 +19,6 @@ RUN pipenv install --system --deploy
 
 # add app
 COPY . .
+
+# run entrypoint.sh
+ENTRYPOINT ["/usr/src/app/entrypoint.sh"]
