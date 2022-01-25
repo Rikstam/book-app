@@ -20,6 +20,8 @@ services:
       - POSTGRES_USER=books
       - POSTGRES_PASSWORD=books
       - POSTGRES_DB=books_dev
+    ports:
+      - "5432:5432"
 
 volumes:
   postgres_data:
