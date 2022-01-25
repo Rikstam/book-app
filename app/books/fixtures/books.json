@@ -1,0 +1,11 @@
+[
+    {
+        "model": "books.book",
+        "pk": 1,
+        "fields": {
+            "title": "The Lord Of The Rings",
+            "author": "J.R.R Tolkien",
+            "rating": 5
+        }
+    }
+]
