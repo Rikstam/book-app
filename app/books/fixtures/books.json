@@ -5,7 +5,18 @@
         "fields": {
             "title": "The Lord Of The Rings",
             "author": "J.R.R Tolkien",
-            "rating": 5
+            "rating": 5,
+            "slug": "the-lord-of-the-rings"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 2,
+        "fields": {
+            "title": "Harry Potter and the Philopsophers Stone",
+            "author": "J.K Rowling",
+            "rating": 4,
+            "slug": "harry-potter-and-the-philosophers-stone"
         }
     }
 ]
