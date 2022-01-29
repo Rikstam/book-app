@@ -18,5 +18,25 @@
             "rating": 4,
             "slug": "harry-potter-and-the-philosophers-stone"
         }
+    },
+    {
+        "model": "books.book",
+        "pk": 3,
+        "fields": {
+            "title": "The Hobbit",
+            "author": "J.R.R Tolkien",
+            "rating": 4,
+            "slug": "the-hobbit"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 4,
+        "fields": {
+            "title": "The Silmarillion",
+            "author": "J.R.R Tolkien",
+            "rating": 4,
+            "slug": "the-silmarillion"
+        }
     }
 ]
