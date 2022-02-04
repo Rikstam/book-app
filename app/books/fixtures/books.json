@@ -4,7 +4,7 @@
         "pk": 1,
         "fields": {
             "title": "The Lord Of The Rings",
-            "author": "J.R.R Tolkien",
+            "author": 1,
             "rating": 5,
             "slug": "the-lord-of-the-rings"
         }
@@ -14,7 +14,7 @@
         "pk": 2,
         "fields": {
             "title": "Harry Potter and the Philopsophers Stone",
-            "author": "J.K Rowling",
+            "author": 2,
             "rating": 4,
             "slug": "harry-potter-and-the-philosophers-stone"
         }
@@ -24,7 +24,7 @@
         "pk": 3,
         "fields": {
             "title": "The Hobbit",
-            "author": "J.R.R Tolkien",
+            "author": 1,
             "rating": 4,
             "slug": "the-hobbit"
         }
@@ -34,9 +34,19 @@
         "pk": 4,
         "fields": {
             "title": "The Silmarillion",
-            "author": "J.R.R Tolkien",
+            "author": 1,
             "rating": 4,
             "slug": "the-silmarillion"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 5,
+        "fields": {
+            "title": "Consider Phlebas",
+            "author": 3,
+            "rating": 4,
+            "slug": "consider-phlebas"
         }
     }
 ]

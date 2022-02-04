@@ -1,0 +1,26 @@
+[
+    {
+        "model": "books.author",
+        "pk": 1,
+        "fields": {
+            "first_name": "J.R.R",
+            "last_name": "Tolkien"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 2,
+        "fields": {
+            "first_name": "J.K",
+            "last_name": "Rowling"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 3,
+        "fields": {
+            "first_name": "Iain M.",
+            "last_name": "Banks"
+        }
+    }
+]
