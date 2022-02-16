@@ -1,4 +1,3 @@
-from tabnanny import verbose
 from django.db import models
 
 # Create your models here.
@@ -59,9 +58,15 @@ class Book(models.Model):
     is_bestselling = models.BooleanField(default=False)
     slug = models.SlugField(default="", blank=True, null=False, db_index=True)
     publishers = models.ManyToManyField(Publisher)
+    number_of_pages = models.PositiveIntegerField(default=1)
 
     def get_absolute_url(self):
         return reverse("book-detail", args=[self.slug])
     
     def __str__(self):
         return f"{self.title} ({self.rating})"
+
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            self.slug = slugify(self.title)
+        return super().save(*args, **kwargs)
