@@ -1,0 +1,10 @@
+[
+    {
+        "model": "books.country",
+        "pk": 1,
+        "fields": {
+            "name": "Finland",
+            "code": "FI"
+        }
+    }
+]
